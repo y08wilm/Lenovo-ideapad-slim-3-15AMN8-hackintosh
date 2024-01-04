@@ -1,0 +1,9 @@
+.*
+!.gitignore
+EFI/Microsoft_
+Boot
+Recovery/
+System Volume Information
+bootmgr
+BOOTNXT
+Recovery.txt
