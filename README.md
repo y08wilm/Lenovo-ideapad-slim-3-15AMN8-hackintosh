@@ -40,7 +40,7 @@ https://archive.org/details/base-system_202312
 
 download the .dmg file from here
 
-then download transmac from https://getintopc.com/softwares/utilities/acute-systems-transmac-2022-free-download/?id=001490199288
+then download transmac from https://getintopc.com/softwares/utilities/acute-systems-transmac-12-4-free-download/?id=001035573651
 
 this is a windows app
 
