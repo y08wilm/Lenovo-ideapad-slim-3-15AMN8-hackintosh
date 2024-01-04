@@ -128,17 +128,17 @@ wifi if using BCM94360NG card from the amazon link sent earlier
 
 bluetooth if using BCM94360NG card from the amazon link sent earlier
 
-xcode opens and works fine*
+xcode opens and works fine**
 
-imessage, facetime**
+imessage, facetime***
 
 laptop keyboard
 
 backlit keyboard toggle with the shift+spacebar key combo, tested on bios L1CN28WW
 
-* xcode 14 does not let you compile for armv7, you need to make sure your valid archs in your project is set to only arm64 and your ios deployment target is ios 9 or later
+** xcode 14 does not let you compile for armv7, you need to make sure your valid archs in your project is set to only arm64 and your ios deployment target is ios 9 or later
 
-** would recommend to follow this guide https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html to change the info already present in the efi in your config.plist cause, although it works at the time of me writing this, it may not work in the future
+*** would recommend to follow this guide https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html to change the info already present in the efi in your config.plist cause, although it works at the time of me writing this, it may not work in the future
 
 # what doesnt work
 
@@ -146,13 +146,13 @@ accelerated graphics, which may be fixed soon as per https://github.com/ChefKiss
 
 brightness adjustment
 
-trackpad, pls pr a fix for this asap k thx bai*
+trackpad, pls pr a fix for this asap k thx bai**
 
 safari, cause this requires accelerated graphics, pls use chrome instead
 
 minecraft cause this requires accelerated graphics
 
-* if anyone wants to take a shot at fixing the trackpad for me, ive gone ahead and included my DSDT, .ioreg file, and a premade SSDT-TPD0.aml in the ACPI folder for this hardware configuration of this model laptop. the SSDT-TPD0.aml file i made simply replaces the _CRS and _DSM methods on the trackpad but makes no changes. my trackpad device has _HID CRQ1080 which means that TPTY is set to 0x03. if you want to try modifying the SSDT to actually fix the trackpad, go right ahead and submit a pr once its working and fixed. k thx bai
+** if anyone wants to take a shot at fixing the trackpad for me, ive gone ahead and included my DSDT, .ioreg file, and a premade SSDT-TPD0.aml in the ACPI folder for this hardware configuration of this model laptop. the SSDT-TPD0.aml file i made simply replaces the _CRS and _DSM methods on the trackpad but makes no changes. my trackpad device has _HID CRQ1080 which means that TPTY is set to 0x03. if you want to try modifying the SSDT to actually fix the trackpad, go right ahead and submit a pr once its working and fixed. k thx bai
 
 # special notes
 
@@ -168,6 +168,6 @@ cerbis for extensive help answering a lot of my questions and giving me the conf
 
 tammo3588 for answering a few of my questions early on when making this efi
 
-popye22 for updating my efi to work on macos ventura and fixing a lot of issues i was having*
+popye22 for updating my efi to work on macos ventura and fixing a lot of issues i was having**
 
-* this person required payment for their work, and i paid in full. i think they are a wonderful person and was great to talk to. they have years of experience in the hackintosh community and i fully recommend them if you are seeking help for your own efi
+** this person required payment for their work, and i paid in full. i think they are a wonderful person and was great to talk to. they have years of experience in the hackintosh community and i fully recommend them if you are seeking help for your own efi
