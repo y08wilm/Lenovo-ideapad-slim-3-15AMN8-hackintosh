@@ -20,11 +20,11 @@ make sure u replace the wifi chip otherwise ur fcked
 
 keyboard is ps/2, trackpad is i2c hid but not working on macos rn
 
-![Screenshot 2024-01-03 at 15 24](https://raw.githubusercontent.com/y08wilm/Lenovo-ideapad-slim-3-15AMN8-hackintosh/master/Screenshot%20at%20Jan%2003%2015-24-49.png)
+![Screenshot 2024-01-03 at 15 24](https://github.com/y08wilm/Lenovo-ideapad-slim-3-15AMN8-hackintosh/blob/master/Screenshot%20at%20Jan%2003%2015-24-49.png?raw=true)
 
-![Screenshot 2024-01-03 at 15 26](https://raw.githubusercontent.com/y08wilm/Lenovo-ideapad-slim-3-15AMN8-hackintosh/master/Screenshot%20at%20Jan%2003%2015-26-49.png)
+![Screenshot 2024-01-03 at 15 26](https://github.com/y08wilm/Lenovo-ideapad-slim-3-15AMN8-hackintosh/blob/master/Screenshot%20at%20Jan%2003%2015-26-49.png?raw=true)
 
-![Screenshot 2024-01-03 at 15 27](https://raw.githubusercontent.com/y08wilm/Lenovo-ideapad-slim-3-15AMN8-hackintosh/master/Screenshot%20at%20Jan%2003%2015-27-41.png)
+![Screenshot 2024-01-03 at 15 27](https://github.com/y08wilm/Lenovo-ideapad-slim-3-15AMN8-hackintosh/blob/master/Screenshot%20at%20Jan%2003%2015-27-41.png?raw=true)
 
 # how to make bootable macos install usb for this laptop
 
