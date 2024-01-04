@@ -1,7 +1,7 @@
 .*
 !.gitignore
 EFI/Microsoft_
-Boot
+/Boot
 Recovery/
 System Volume Information
 bootmgr
